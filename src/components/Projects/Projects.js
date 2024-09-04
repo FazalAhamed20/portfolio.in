@@ -2,11 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import netflix from "../../Assets/Projects/netflix.png";
 import redux from "../../Assets/Projects/redux.png";
 import solveX from "../../Assets/Projects/solveX.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import olx from "../../Assets/Projects/olx.png";
 import coffeeland from "../../Assets/Projects/coffeeland.png";
 
 function Projects() {
@@ -49,42 +48,30 @@ function Projects() {
               isBlog={false}
               title="User Management"
               description="User Management system using redux and react and backend is node where user can signin or signup can change their details like name,profileimage,etc.."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="https://github.com/FazalAhamed20/Redux.in"
               // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={netflix}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Neflix"
+              description="Its a netflix clone used react and firebase on it at my initial stage of learning react i done this mini project for learning purpose and for data storage i used firestore"
+              ghLink="https://github.com/FazalAhamed20/Netflix.in"
+              demoLink="https://netflix-in-puce.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={olx}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="olx"
+              description="Olx cloning mini project where i built this project at the initial stage when i used to learn react and firebase for  image storage i used firestore as well"
+              ghLink="https://github.com/FazalAhamed20/olx.in"
+              demoLink="https://olx-in-nu.vercel.app/" 
             />
           </Col>
         </Row>
